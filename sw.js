@@ -1,6 +1,6 @@
 // Service worker: salva i file dell'app nel dispositivo, cosi' si apre anche senza internet.
-// Se modifichi l'app, cambia il numero qui sotto (v1 -> v2) per far aggiornare i file salvati.
-var NOME = "note-v1"
+// Se modifichi l'app, cambia il numero qui sotto (v2 -> v3) per far aggiornare i file salvati.
+var NOME = "note-v2"
 var FILE = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"]
 
 self.addEventListener("install", function (e) {
